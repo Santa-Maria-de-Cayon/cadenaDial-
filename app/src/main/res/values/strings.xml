@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Cadena Dial España</string>
+
+    <string name="actEs">Radios de España</string>
+    <string name="actRu">Radios de Rusia</string>
+
+
+    <string name="r90">Discoteca 90-х</string>
+    <string name="vesti">Vesti fm</string>
+    <string name="mayak">Mayak</string>
+    <string name="komsomol">Komsomolskaya Pravda</string>
+    <string name="svoboda">Radio Svoboda</string>
+    <string name="ser48">Serebryanniy Dozd 48</string>
+    <string name="russkoe_radio96">Russkoe Radio 96</string>
+    <string name="russkoe_radio128">Russkoe Radio 128</string>
+    <string name="drug_astraj32">Drugaya Astrajan 32</string>
+    <string name="drug_astraj128">Drugaya Astrajan 128</string>
+    <string name="shanson">Radio Shanson</string>
+    <string name="ejo">Ejo Moskvi</string>
+    <string name="di">Di Fm</string>
+    <string name="yomor">Yumor Fm</string>
+    <string name="ser128">Serebraniy Dozd 128</string>
+
+
+
+
+    <string name="dial">Cadena Dial</string>
+    <string name="los40">Los 40 Principales</string>
+    <string name="los40clas">Los 40 Classic</string>
+    <string name="cien">Cadena Cien</string>
+    <string name="rock">Rock Fm</string>
+    <string name="loca">Loca Fm</string>
+    <string name="rac1">RAC 1</string>
+    <string name="onda">Onda Cero</string>
+    <string name="ibiza">Ibiza</string>
+    <string name="rne">RNE</string>
+    <string name="inter">Intereconomia</string>
+    <string name="ser">SER</string>
+    <string name="ib">Ibiza Sonica</string>
+    <string name="vinilo">Radio Vinilo</string>
+    <string name="cope">Radio Cope</string>
+    <string name="max">Maxima</string>
+    <string name="hit">Hit</string>
+    <string name="kiss">Kiss</string>
+    <string name="gay">Radio Gay</string>
+    <string name="fresca">La Fresca</string>
+    <string name="holi">Holiday y gym</string>
+    <string name="xxx">Xxx Rock</string>
+    <string name="radiole">Radiole</string>
+    <string name="localatino">Loca Latino</string>
+
+
+
+    <string name="rusia">Russia</string>
+    <string name="spain">España</string>
+
+    <string name="rossii">Radio Rossii</string>
+    <string name="record">Radio Record</string>
+    <string name="newradio">Novoe Radio</string>
+    <string name="marusya">Мarusya</string>
+    <string name="energy">Radio Energy</string>
+    <string name="evropa">Europa Plyus</string>
+    <string name="visit">Visitame</string>
+    <string name="com">Deja un comentario</string>
+
+    <string name="send_to">https://play.google.com/store/apps/details?id=com.suzdalenko.radio</string>
+    <string name="compart">Comparte</string>
+    <string name="addRad">Añade una emisora de radio</string>
+    <string name="asset_statements" translatable="false">[{ \"include\": \"https://suzdalenko-alexey.web.app/.well-known/assetlinks.json\" }]</string>
+</resources>

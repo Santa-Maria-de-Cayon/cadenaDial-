@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="RelatStyle">
+        <item name="android:background">@color/blue</item>
+        <item name="android:layout_margin">3sp</item>
+    </style>
+
+    <style name="LinStyle">
+        <item name="android:layout_marginLeft">5sp</item>
+        <item name="android:layout_marginRight">5sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <style name="TextViewStyle">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:padding">3sp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5sp</item>
+        <item name="android:layout_marginRight">5sp</item>
+
+    </style>
+
+    <style name="ImageStyle">
+        <item name="android:layout_marginLeft">5sp</item>
+        <item name="android:layout_marginRight">5sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+
+    </style>
+
+    <style name="linButton">
+        <item name="android:layout_margin">7dp</item>
+
+    </style>
+</resources>

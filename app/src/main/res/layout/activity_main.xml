@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/player_view"
+        app:controller_layout_id="@layout/custom"
+        android:textColor="#FF00A6FF"
+        app:show_timeout="0" />
+
+
+
+
+
+    <ScrollView
+        android:layout_alignParentTop="true"
+        android:id="@+id/es_scrol"
+        android:layout_marginTop="39dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        >
+
+        <LinearLayout style="@style/LinStyle"
+            android:orientation="vertical"
+            android:id="@+id/parent">
+
+
+            <RelativeLayout
+                style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_dial"
+                    android:text="@string/dial" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/dial"
+                    android:contentDescription="@string/dial"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_los40"
+                    android:text="@string/los40" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/los40"
+                    android:contentDescription="@string/los40"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_los40clas"
+                    android:text="@string/los40clas" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/los40clas"
+                    android:contentDescription="@string/los40clas"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_cien"
+                    android:text="@string/cien" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/cien"
+                    android:contentDescription="@string/cien"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_rock"
+                    android:text="@string/rock" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/rock"
+                    android:contentDescription="@string/rock"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_loca"
+                    android:text="@string/loca" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/loca"
+                    android:contentDescription="@string/loca"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_rac1"
+                    android:text="@string/rac1" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/rac1"
+                    android:contentDescription="@string/rac1"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_onda"
+                    android:text="@string/onda" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/onda"
+                    android:contentDescription="@string/onda"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle"  android:id="@+id/_ibiza"
+                    android:text="@string/ibiza" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/ibiza"
+                    android:contentDescription="@string/ibiza"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_rne"
+                    android:text="@string/rne" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/rne"
+                    android:contentDescription="@string/rne"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_inter"
+                    android:text="@string/inter" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/inter"
+                    android:contentDescription="@string/inter"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_ser"
+                    android:text="@string/ser" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/ser"
+                    android:contentDescription="@string/ser"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_ib"
+                    android:text="@string/ib" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/ib"
+                    android:contentDescription="@string/ib"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_vinilo"
+                    android:text="@string/vinilo" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/vinilo"
+                    android:contentDescription="@string/vinilo"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_cope"
+                    android:text="@string/cope" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/cope"
+                    android:contentDescription="@string/cope"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_max"
+                    android:text="@string/max" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/max"
+                    android:contentDescription="@string/max"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_hit"
+                    android:text="@string/hit" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/hit"
+                    android:contentDescription="@string/hit"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_kiss"
+                    android:text="@string/kiss" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/kiss"
+                    android:contentDescription="@string/kiss"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_gay"
+                    android:text="@string/gay" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/gay"
+                    android:contentDescription="@string/gay"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_fresca"
+                    android:text="@string/fresca" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/fresca"
+                    android:contentDescription="@string/fresca"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_holi"
+                    android:text="@string/holi" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/holi"
+                    android:contentDescription="@string/holi"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+            <!--
+                               <RelativeLayout style="@style/RelatStyle"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content">
+                                   <TextView style="@style/TextViewStyle" android:id="@+id/_xxx"
+                                       android:text="@string/xxx" />
+                                   <ImageView
+                                       style="@style/ImageStyle" android:id="@+id/xxx"
+                                       android:contentDescription="@string/xxx"
+                                       android:src="@drawable/go"/>
+                               </RelativeLayout>
+            -->
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_radiole"
+                    android:text="@string/radiole" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/radiole"
+                    android:contentDescription="@string/radiole"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/RelatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView style="@style/TextViewStyle" android:id="@+id/_localatino"
+                    android:text="@string/localatino" />
+                <ImageView
+                    style="@style/ImageStyle" android:id="@+id/localatino"
+                    android:contentDescription="@string/localatino"
+                    android:src="@drawable/go"/>
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/mAdViewEs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="LARGE_BANNER"
+        ads:adUnitId="ca-app-pub-4356216065008445/5147850285">
+    </com.google.android.gms.ads.AdView>
+
+
+    <!--  ads:adUnitId="ca-app-pub-4356216065008445/5147850285" -->
+</RelativeLayout>
